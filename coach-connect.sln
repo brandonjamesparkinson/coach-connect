@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "coach-connect", "coach-connect\coach-connect.csproj", "{A6FCA052-D605-4348-8C2F-54792153863A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "coach-connect-api", "coach-connect-api\coach-connect-api.csproj", "{7E65159D-A3CE-477B-B5C0-95BD2BAF8128}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "coach-frontend", "coach-frontend\coach-frontend.csproj", "{515DD6D3-B330-41BB-ADFB-7BB5E3341A6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "client-frontend", "client-frontend\client-frontend.csproj", "{1AB59448-E18E-4173-938D-938188551523}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A6FCA052-D605-4348-8C2F-54792153863A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A6FCA052-D605-4348-8C2F-54792153863A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A6FCA052-D605-4348-8C2F-54792153863A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A6FCA052-D605-4348-8C2F-54792153863A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E65159D-A3CE-477B-B5C0-95BD2BAF8128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E65159D-A3CE-477B-B5C0-95BD2BAF8128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E65159D-A3CE-477B-B5C0-95BD2BAF8128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E65159D-A3CE-477B-B5C0-95BD2BAF8128}.Release|Any CPU.Build.0 = Release|Any CPU
+		{515DD6D3-B330-41BB-ADFB-7BB5E3341A6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{515DD6D3-B330-41BB-ADFB-7BB5E3341A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{515DD6D3-B330-41BB-ADFB-7BB5E3341A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{515DD6D3-B330-41BB-ADFB-7BB5E3341A6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AB59448-E18E-4173-938D-938188551523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AB59448-E18E-4173-938D-938188551523}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AB59448-E18E-4173-938D-938188551523}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AB59448-E18E-4173-938D-938188551523}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
