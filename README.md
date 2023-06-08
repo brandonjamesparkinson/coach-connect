@@ -1,5 +1,7 @@
 # Coach Connect
 
+![alt text](images/Color-logo-with-background.png)
+
 Coach Connect is a collaborative gym/fitness platform designed to facilitate seamless communication and collaboration between coaches and their clients. The platform provides a centralized hub for coaches and clients to interact, set goals, track progress, and share resources, ultimately enhancing the coaching experience and improving fitness outcomes.
 
 ## Features
