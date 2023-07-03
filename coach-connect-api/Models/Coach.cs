@@ -7,8 +7,8 @@
         public string LastName { get; set; }
         public string Email { get; set; }
         public string PhoneNumber { get; set; }
-        public List<Client> CurrentClients { get; set; }  // currently paying for coaching
-        public List<Client> InactiveClients { get; set; } // not currently paying for coaching
+        //public List<Client> CurrentClients { get; set; }  // currently paying for coaching
+        //public List<Client> InactiveClients { get; set; } // not currently paying for coaching
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
     }

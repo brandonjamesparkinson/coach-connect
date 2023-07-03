@@ -9,10 +9,10 @@
         public DateTime BirthDate { get; set; }
         public string Email { get; set; }
         public string PhoneNumber { get; set; }
-        public List<DietPlan> DietPlans { get; set; }
-        public List<WorkoutPlan> WorkoutPlans { get; set; }
+        //public List<DietPlan> DietPlans { get; set; }
+        //public List<WorkoutPlan> WorkoutPlans { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
-        public enum ClientGoal { FatLoss, MuscleGain, LifestyleChange };
+        public string ClientGoal { get; set; }
     }
 }

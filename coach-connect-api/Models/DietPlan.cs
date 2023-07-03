@@ -8,8 +8,8 @@
         public int Duration { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
-        public List<Meal> Meals { get; set; }
-        public List<string> Restrictions { get; set; }
+        //public List<Meal> Meals { get; set; }
+        //public List<string> Restrictions { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
     }
